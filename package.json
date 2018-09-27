@@ -4,12 +4,18 @@
   "description": "Passthrough API for github",
   "main": "index.js",
   "scripts": {
+    "start": "nodemon server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Evan Johnson",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.16.3"
+    "chalk": "^2.4.1",
+    "express": "^4.16.3",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.2"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "nodemon": "^1.18.4"
+  }
 }
