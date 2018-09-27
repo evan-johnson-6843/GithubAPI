@@ -59,16 +59,3 @@ app.listen(PORT, () => {
     const message = chalk.green(`Listening on port ${PORT}`);
     console.log(message);
 });
-
-
-// makeRequest(username)
-// .then (body => { 
-//     const parsed = JSON.parse(body);
-//     const firstFive = parsed.slice(0, 5);
-//     firstFive
-//         .map(user => user.login)
-//         .map(login => makeRequest(login));
-
-
-// });
-// res.send('whatever');
